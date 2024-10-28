@@ -1,4 +1,4 @@
-FROM rust:alpine AS builder
+FROM rust:alpine
 
 RUN apk update && \
     apk add --no-cache bash curl npm libc-dev binaryen
